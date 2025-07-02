@@ -1,0 +1,4 @@
+colcon build --packages-select orbslam_nav_sim
+source ~/.bashrc
+ros2 launch orbslam_nav_sim sim_launch.py
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
